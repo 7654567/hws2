@@ -1,5 +1,6 @@
 .friendMessage {
-
+	clear: both;
+	margin-top: 50px;
 }
 
 .friendImageAndText {
@@ -7,10 +8,19 @@
 }
 
 .friendImageAndText img {
-
+	width: 48px;
+	height: 48px;
+	border-radius: 48px;
+	float: left;
 }
 
 .friendText {
+	background-color: #F5F7FB;
+	filter: drop-shadow(0px 1px 2px rgba(29, 33, 38, 0.10)) drop-shadow(0px 5px 20px rgba(29, 33, 38, 0.03));
+	float: left;
+	padding: 8px 13px;
+	border-radius: 10px;
+	margin: 0 15px;
 
 }
 
@@ -19,7 +29,7 @@
 }
 
 .friendName {
-
+	font-weight: bold;
 }
 
 .friendMessageText {
@@ -27,5 +37,9 @@
 }
 
 .friendTime {
-
+	clear: both;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000;
 }
+
